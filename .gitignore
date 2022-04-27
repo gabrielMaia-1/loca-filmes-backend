@@ -1,0 +1,10 @@
+Api/obj*
+Application/obj*
+Domain/obj*
+Infra/obj*
+Test/obj*
+Api/bin*
+Application/bin*
+Domain/bin*
+Infra/bin*
+Test/bin*
