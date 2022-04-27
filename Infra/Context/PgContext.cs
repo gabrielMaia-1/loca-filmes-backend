@@ -22,10 +22,6 @@ namespace Infra.Contexts
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseNpgsql("User ID=postgres;Password=postgres;Host=localhost;Port=5432;Database=postgres;");
-            }
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
